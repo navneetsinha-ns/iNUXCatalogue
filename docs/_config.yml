@@ -1,15 +1,34 @@
-title: iNUX Interactive Documents
-description: An overview about iNUX Jupyter Notebooks and Streamlit Apps for interactive education
-theme: just-the-docs
+#title: iNUX Interactive Documents
+#description: An overview about iNUX Jupyter Notebooks and Streamlit Apps for interactive education
+#theme: just-the-docs
 
-url: https://gw-inux.github.io/Jupyter-Notebooks/
+#url: https://gw-inux.github.io/Jupyter-Notebooks/
+
+#aux_links:
+#  Template Repository: https://github.com/gw-inux/Jupyter-Notebooks
+  
+#sass:
+#    sass_dir: _sass
+#    style: compressed
+
+#color_scheme: iNUX_colors1
+#logo: "/assets/images/iNUX_wLogo.png"
+title: iNUX Interactive Documents
+description: An overview about iNUX Jupyter Notebooks and Streamlit Apps for interactive learning.
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+url: https://navneetsinha-ns.github.io/iNUXCatalogue/
 
 aux_links:
   Template Repository: https://github.com/gw-inux/Jupyter-Notebooks
-  
+
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 color_scheme: iNUX_colors1
 #logo: "/assets/images/iNUX_wLogo.png"
